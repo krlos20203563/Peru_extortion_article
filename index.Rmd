@@ -147,7 +147,7 @@ ggplot(q2_zscore, aes(x = reorder(Province, Z_score), y = Z_score, fill = Z_scor
   geom_col() +                           # Crea las barras
   coord_flip() +                         # Gira el gráfico para que las barras queden horizontales
   labs(
-    title = "Variación Porcentual de Denuncias (2018 vs 2024)",
+    title = "Variación Z-Score de Denuncias (2018 vs 2024)",
     x = "Provincia",
     y = "Z-score"
   ) +
@@ -236,7 +236,7 @@ ggplot(q3_zscore, aes(x = reorder(Province, Z_score), y = Z_score, fill = Z_scor
   geom_col() +                           # Crea las barras
   coord_flip() +                         # Gira el gráfico para que las barras queden horizontales
   labs(
-    title = "Variación Porcentual de Denuncias (2018 vs 2024)",
+    title = "Variación del Z-Score de Denuncias (2018 vs 2024)",
     x = "Provincia",
     y = "Z-score"
   ) +
@@ -325,7 +325,7 @@ ggplot(q4_zscore, aes(x = reorder(Province, Z_score), y = Z_score, fill = Z_scor
   geom_col() +                           # Crea las barras
   coord_flip() +                         # Gira el gráfico para que las barras queden horizontales
   labs(
-    title = "Variación Porcentual de Denuncias (2018 vs 2024)",
+    title = "Variación del Z-Score de Denuncias (2018 vs 2024)",
     x = "Provincia",
     y = "Z-score"
   ) +
